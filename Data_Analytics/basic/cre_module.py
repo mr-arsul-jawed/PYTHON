@@ -11,8 +11,14 @@ import demo
 # if (demo.arr_num[0] == 1):
 #     print("Yes")
 
-val = 1
-for i in demo.arr_num:
-    # print(i)
-    val = val * i
-print(val)
+# val = 1
+# for i in demo.arr_num:
+#     # print(i)
+#     val = val * i
+# print(val)
+
+
+print(demo.sum(1, 2))
+
+
+
