@@ -74,16 +74,15 @@
 import json
 
 student = {"name": "Arsul", "age": 20, "marks":80}
-student2 = {"name": "jawed", "age": 20, "marks":80}
+
 
 data = json.dumps(student, indent=4, sort_keys=False)
-data2 = json.dumps(student2, indent=4, sort_keys=False)
 
-# print(data)
 
 f = open("demo.json","w")
 f.write(data)
 print(data)
+
 
 
 
