@@ -32,7 +32,6 @@
 
 # #list.pop function  this use to direct value index delete
 # list = [1,5,6,34,22,10]
-
 # list.pop(2)
 # print(list)
 

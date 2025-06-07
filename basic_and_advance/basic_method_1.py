@@ -33,7 +33,9 @@
 
                     #join()
 # The join() method in Python is used to join elements of an iterable (like a list, tuple, or set) into a single string using a specified separator.
-# a = ['H', 'e', 'l', 'l', 'o']
+# # a = ['H', 'e', 'l', 'l', 'o']
+# # a = {'H': 'H', 'e': 'e', 'l': 'l', 'l': 'l', 'o': 'o'}
+
 # res = "".join(a)
 # print(res)
                     
@@ -57,7 +59,7 @@
 # print(res)
                         #startswith()
 # a = "This is a Car but Green Color is not Better Look"
-# res = a.startswith("car")    #startswith() method just check the give argument is true or false in started
+# res = a.startswith("This")    #startswith() method just check the give argument is true or false in started
 # print(res)
 
                         #endswith()
@@ -89,9 +91,9 @@
     
                         #casefold()
 
-# name = "ARSUL"
-# res = name.casefold() #casefold() basically convert upper case letter in lower case.
-# print(res)
+name = "ARSUL"
+res = name.casefold() #casefold() basically convert upper case letter in lower case.
+print(res)
 
                        #ljust()
 
@@ -101,9 +103,9 @@
 
 
                        #rjust()
-a = "hello world"
-x = a.rjust(20, "-")
-print(x,"continuues")
+# a = "hello world"
+# x = a.rjust(20, "-")
+# print(x,"continuues")
                              
 
 

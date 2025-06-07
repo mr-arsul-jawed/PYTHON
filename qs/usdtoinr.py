@@ -10,10 +10,15 @@
 
 # print("The USD convert in INR:",USD)
 
-usd = int(input("enter the usd: "))
+usd = float(input("enter the usd: "))
 
-USD = 83.84
+inr_rate = 83.84
 
-for val in range(1, usd+1):
-    USD *= val
-print(USD)
+
+result = usd * inr_rate
+print("The USD convert in INR:", result)
+
+# for val in range(1, usd):
+#     USD *= val
+# print(USD)
+

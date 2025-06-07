@@ -1,4 +1,4 @@
-n=int(input("Enter a digit from o to 9:"))
+n=int(input("Enter a digit from 0 to 9:"))
 if n==0 :
  print("ZERO")
 elif n==1:
