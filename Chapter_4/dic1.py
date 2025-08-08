@@ -5,7 +5,9 @@ info = {
     "subject" : ["python","c","c++","java"],
     "topics" : ("dict","set"),
     "Leaning" : "coding",
-    "age" : 20
+    "age" : 20,
+    "is_student" : True,
+    "marks" : None
 }
 
 # print(info)
