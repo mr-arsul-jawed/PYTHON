@@ -85,20 +85,30 @@
 
 
 # acess the nested key "marks" from the given data
+# import json
+# student_data = """{"student":{
+#     "grade":{
+#         "name": "arsul",
+#         "marks":{
+#             "math": 90
+#         }
+#     }
+#     }
+# }"""
+
+
+# data  = json.loads(student_data)
+# print(data["student"]["grade"]["marks"]["math"])  # Output: 90
+
+
 import json
-student_data = """{"student":{
-    "grade":{
-        "name": "arsul",
-        "marks":{
-            "math": 90
-        }
-    }
-    }
-}"""
+student = {"name": "Arsul", "age": 20, "marks":80}
 
+data = json.dumps(student, indent=4, sort_keys=True)
 
-data  = json.loads(student_data)
-print(data["student"]["grade"]["marks"]["math"])  # Output: 90
+f = open("demo.json","w")
+f.write(data)
+print(data)
 
 
 

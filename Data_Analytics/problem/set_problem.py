@@ -9,8 +9,8 @@
 
 # -------------- Example:1 --------------------------
 
-a = [1,5,6,7,2]
-b = [4,5,6,7]
+a = {1,5,6,7,2}
+b = {4,5,6,7}
 
 # print(a.difference(b))
 
@@ -45,7 +45,7 @@ b = {4,5,6,7,8,9}
 #write a python program to remove an item from a set if is present in the set.
 a = {1,2,3,4,5,6}
 a.discard(4)
-print(a)
+# print(a)
 # -------------- Example:2 --------------------------
 #write a python program to check if a set is a subset of another set.
 
