@@ -30,7 +30,7 @@
 # Example: 3
 # for i in range(1,6):
 #     for j in range(5,i,-1):
-#         print(" ", end=" ")
+#         print("@", end=" ")
 #     for k in range(i):
 #         print("*", end=" ")
 #     print()
@@ -46,7 +46,84 @@
 #     print()
 
 
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print("*", end=" ")
+#     print()
 
 
+
+# r = 5
+# for i in range(1, r+1):
+
+#     for j in range(r-i):
+#         print("@", end="")
+
+#     for k in range(1, i+1):
+#         print("*", end=" ")
+#     print()
+
+
+# rows = 5
+# for i in range(1, rows+1):
+#     # print spaces
+#     for j in range(rows-i):
+#         print(" ", end="")
+
+#     # print stars
+#     for k in range(1, i+1):
+#         print("*", end=" ")
+
+#     # move to next line
+#     print()
+
+
+# r = 5
+# for i in range(1, r):
+#     for j in range(r-i):
+#         print("@", end="")
+
+#     for k in range(1, i+1):
+#         print("*", end=" ")
+#     print()
+
+
+# rows = 5
+# for i in range(1, rows+1):
+#     # spaces
+#     for j in range(rows-i):
+#         print("@", end="")
+
+#     # stars (no extra space)
+#     for k in range(1, 2*i):
+#         print("*", end="")
+
+#     print()
+
+
+
+# rows = 5
+
+# for i in range(1, rows+1):
+#     # spaces
+#     for j in range(rows-i):
+#         print(" ", end="")
+
+#     # stars
+#     for k in range(1, 2*i):
+#         print("*", end="")
+
+#     print()
+
+# for i in range(rows, 0, -1):
+#     # spaces
+#     for j in range(rows-i):
+#         print(" ", end="")
+
+#     # stars
+#     for k in range(1, 2*i):
+#         print("*", end="")
+
+#     print()
 
 

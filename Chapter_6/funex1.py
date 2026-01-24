@@ -20,13 +20,14 @@
 
 
 
-# def solution(s):
-#     for i in range(len(s)):
-#         if s[i] == "a" or s[i] == "e" or s[i] == "i" or s[i] == "o" or s[i] == "u" or s[i] == "A" or s[i] == "E" or s[i] == "I" or s[i] == "O" or s[i] == "U":
-#             print(i, end=" ")
+def solution(s):
+    for i in range(len(s)):
+        if s[i] == "a" or s[i] == "e" or s[i] == "i" or s[i] == "o" or s[i] == "u" or s[i] == "A" or s[i] == "E" or s[i] == "I" or s[i] == "O" or s[i] == "U":
+            # print(i, end=" ")
+            print(f"\nThis is index...{i}\nThis is element...{s[i]}",end=" ")
 
-# # Example usage:
-# solution("Hello WORLD")  # Output: 1 4 7 
+# Example usage:
+solution("Hello WORLD")  # Output: 1 4 7 
 
 
 # def vowel(anyname):
@@ -64,15 +65,15 @@
 
 
 # str = " "
-def check(any):
-    for i in range(len(any)):
-        # print(i)
-        if(any[i] == " "):
-            print("Space Detected",any[i])
-        else:
-            print("Not Space",any[i])
+# def check(any):
+#     for i in range(len(any)):
+#         # print(i)
+#         if(any[i] == " "):
+#             print("Space Detected",any[i])
+#         else:
+#             print("Not Space",any[i])
 
-check("a rs ul")
+# check("a rs ul")
 
 
 

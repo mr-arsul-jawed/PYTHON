@@ -1,3 +1,4 @@
+#------------------------------------- OTHER EXAMPLE------------------------------------
 #Question---1
 # dic = {
 #     "table": ["a piece of furniture","list of facts & figure"],
@@ -12,7 +13,7 @@
 
 # print(set)
 # print(len(set))
-
+#------------------------------------- OTHER EXAMPLE------------------------------------
 #Question---3
 
 # sub1 =int(input("enter the sub1 marks: "))
@@ -25,7 +26,7 @@
 # marks["chem"] = sub3
 
 # print(marks)
-
+#------------------------------------- OTHER EXAMPLE------------------------------------
 #another  rules same question but use method of .update()
 # marks = {}
 # x = int(input("enter phy: "))

@@ -16,5 +16,14 @@ student = {
 # print(student.values())
 # print(list(student.values()))
 # print(tuple(student.values()))
-print(student.values())
+# print(student.values())
+
+
+std = {}
+
+std['name'] = input("enter the name:")
+std['age'] = int(input("enter the age:"))
+print(std)
+
+
 

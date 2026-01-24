@@ -17,7 +17,7 @@
 - union(), intersection(), difference()
 - issubset(), issuperset()
 
-## uple Methods
+## Tuple Methods
 - count(), index()
 
 ## File Handling Methods

@@ -1,4 +1,4 @@
-## range(): Range functions return a swqquesnce of number, starting from 0 by default, and increments by 1 (by default, and stops before a specified number.
+## range(): Range functions return a sequence of number, starting from 0 by default, and increments by 1 (by default, and stops before a specified number.
                                                                                                 
 # range( start?, stop, step?)
 

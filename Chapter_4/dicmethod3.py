@@ -16,10 +16,10 @@ student = {
 
 
 #after use pairs then it is print only access items 
-# pairs1 = list(student.items())
-# pairs2 = list(student)
-# print(pairs1[0])
-# print(pairs2)
+pairs1 = list(student.items())
+pairs2 = list(student)
+# print(pairs1[1])
+print(pairs2)
 
 p1 = list(student.items())
 p2 = list(student.items())
