@@ -9,8 +9,8 @@
 
 def multi(n):
     for i in range(1,11):
-        maultiply = n * i
-        print(maultiply)
+        multiply = n * i
+        print(multiply)
 
 multi(5)
 

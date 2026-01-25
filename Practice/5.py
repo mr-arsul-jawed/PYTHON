@@ -1,13 +1,9 @@
 # num = [10,20,30,10]
-num_1 = int(input("enter your num: "))
-num_2 = int(input("enter your num: "))
-num_3 = int(input("enter your num: "))
-num_4 = int(input("enter your num: "))
 val = []
-val.append(num_1)
-val.append(num_2)
-val.append(num_3)
-val.append(num_4)
+val.append(int(input("enter your num..1: ")))
+val.append(int(input("enter your num..2: ")))
+val.append(int(input("enter your num..3: ")))
+val.append(int(input("enter your num..4: ")))
 
 def first_last(list):
     print("Given list",list)

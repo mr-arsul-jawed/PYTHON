@@ -21,5 +21,5 @@ name = input("Enter your name: ")
 i = 0
 
 while i<len(name):
-    print(name[i])
+    print(name[i],end=" ")
     i += 1

@@ -2,7 +2,7 @@ import pandas as pd
 import mysql.connector
 
 # Load Excel file
-df_excel = pd.read_excel(r"D:\PROGRAM\PYTHON\Practice\detail_student.xlsx")  # Ensure 'id' and 'year' columns exist
+df_excel = pd.read_excel(r"D:\PROGRAM\PYTHON\Practice\detail_student.xlsx") # Ensure 'id' and 'year' columns exist
 
 # Connect to MySQL database
 conn = mysql.connector.connect(
